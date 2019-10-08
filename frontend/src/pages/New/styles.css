@@ -1,0 +1,22 @@
+label#imagem {
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label#imagem input {
+    display: none;
+}
+
+label#imagem.tem-imagem {
+    border: 1px transparent;
+}
+
+label#imagem.tem-imagem img {
+    display: none;
+}
